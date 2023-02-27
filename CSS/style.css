@@ -22,6 +22,15 @@ h1 {
     padding-left: 5%;
 }
 
+a {
+    align-content: center;
+    color: #303949;
+}
+
+a.active {
+    background-color: beige;
+}
+
 .flexContainer {
     display: flex;
     margin: 0 auto;
