@@ -1,0 +1,130 @@
+﻿nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+footer {
+    background: #373738;
+    padding: 20px;
+}
+
+    footer ul li {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+h1 {
+    padding-left: 5%;
+}
+
+.flexContainer {
+    display: flex;
+    margin: 0 auto;
+    width: 33%;
+}
+
+.flexContainer div {
+    padding: 0 10px 0 10px;
+    border: solid;
+    border-color: black;
+}
+
+.myWork {
+    grid-area: auto;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-rows: 250px 250px 250px;
+}
+
+.workOne {
+    background-color: #BFCED2;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.workTwo {
+    background-color: #E3D4DF;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.workThree {
+    background-color: #D2CBC2;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.myWorkImage{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    border: solid;
+    margin: 10px 10px 10px 20px;
+}
+
+.workTextRight {
+    text-align: right;
+}
+
+.workTextLeft {
+    text-align: left;
+}
+
+.navigation {
+    background-color: #DDE8D9;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 40%;
+    padding: 1%;
+}
+
+.header-img {
+    width: 60%;
+    padding: 1%;
+    float:right;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    height: inherit;
+    padding: inherit;
+    width: 500px;
+    margin: 0 auto;
+}
+
+img {
+    height: inherit;
+    padding: inherit;
+    width: inherit;
+    margin: inherit;
+}
+
+@media only screen and (max-width: 600){
+    .flextContainer{
+        grid-template-rows: 80px 80px 80px 80px 80px;
+        grid-template-columns: 1fr;
+    }
+}
