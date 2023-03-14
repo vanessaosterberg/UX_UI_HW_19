@@ -5,7 +5,7 @@
 
 <head>
     <link rel="stylesheet" href="/CSS/style.css">
-    <script src="js/contact.js"></script>
+    <script src="/js/contact.js"></script>
     <meta charset="utf-8" />
     <title>
     </title>
@@ -40,15 +40,18 @@
         <div class="content">
             <div>
                 <label>Name:</label>
-                <input type="text" />
+                <input type="text" id="name"/>
             </div>
             <div>
                 <label>Email:</label>
-                <input type="text" />
+                <input type="text" id="email"/>
             </div>
             <div>
                 <label>Message:</label>
-                <input type="text" />
+                <input type="text" id="mess"/>
+            </div>
+            <div>
+                <button onclick="messageFromUser()">Submit</button>
             </div>
         </div>
     </section>
